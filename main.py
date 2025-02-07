@@ -130,8 +130,7 @@ async def button(bot, cmd: CallbackQuery):
 		)
 
 # Start Clients
-from bot import Bot
+from client import Bot
 
-app = Bot()
-app.run()
-
+print("Bot Started. Updates @Codeflix_Bots")
+Bot().run()

@@ -7,7 +7,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQFqAQUAILF71ce55v3V4Q_RX28TKyzEz2D-B5HD0T6Q4mAuiNS1GKshZJUSfzKmGw00CqAuPQUxbOn_gxDC0qjyHTcuo30gVOuTbWL3AWnd6Z5Sef4lP_AhSxMhUuLjDNaGUHpZ0s3PBh6Z9cMXBmLMHbOj9jRHd9Tu8PfMHmTSJQ-t_uLJQSlNMmOORHD13tvMFWhBsO5NJqTvB00DclFyYRxZt5Y8L9oFajnDUBpgEAe2Q5JmUJtdUcNPsMfXa8FQ6fKlYSwXpHsCEUXoyDLiZTjcZb0DOl3Pa1uFuTTa1_R0bNSSQFB-hEcmoeuazY7YPXMelePqOulfAgGra_T3V1n-yQAAAAF24wVEAA")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100"))
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002471954376"))
     BOT_USERNAME = os.environ.get("BOT_USERNAME","")
     BOT_OWNER = int(os.environ.get("BOT_OWNER",""))
     DATABASE_URL = os.environ.get("DATABASE_URL","")

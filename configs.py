@@ -2,8 +2,8 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", 28918271))
+    API_HASH = os.environ.get("API_HASH", "29bf447b916a795191046a91317869fb")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "LinkSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")

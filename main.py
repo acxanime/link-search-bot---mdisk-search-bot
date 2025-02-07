@@ -1,3 +1,4 @@
+from bot import Bot
 from configs import Config
 from pyrogram import Client, filters, idle
 from pyrogram.errors import QueryIdInvalid
@@ -130,7 +131,6 @@ async def button(bot, cmd: CallbackQuery):
 		)
 
 # Start Clients
-from client import Bot
 
 print("Bot Started. Updates @Codeflix_Bots")
 Bot().run()

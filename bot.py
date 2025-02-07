@@ -130,3 +130,11 @@ async def button(bot, cmd: CallbackQuery):
 		)
 
 # Start Clients
+Bot.start()
+User.start()
+# Loop Clients till Disconnects
+idle()
+# After Disconnects,
+# Stop Clients
+Bot.stop()
+User.stop()
